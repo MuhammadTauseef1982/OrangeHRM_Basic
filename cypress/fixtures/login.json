@@ -1,0 +1,63 @@
+{
+    "User":
+    {
+        "username" : "Admin",
+        "password" : "admin123",
+        "userrole" : "a",
+        "empName"  : "t",
+        "empStatus": "e",
+        "empUserName" : "Tauseef1",
+        "empPassword" : "abcd1234",
+        "empConfirmPassword" : "abcd1234",
+        "NewempUserName" : "Ali12345",
+        "username1" : "Admin1",
+        "firstname" : "Muhammad",
+        "middlename" : "Tauseef",
+        "lastname" : "Amin",
+        "username_pim" :"Ali Gohar",
+        "password_pim" : "Ali123456",
+        "confirmpassword_pim" : "Ali123456",
+        "firstname_symbol" : "Mu"
+        
+        
+        
+    },
+    "locators":
+    {
+        "userloc":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "passloc" :":nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "loginloc" :".oxd-button",
+        "admin":"#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(1) > a",
+        "userbutton" :"#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.orangehrm-paper-container > div.orangehrm-header-container > button",
+        "userroleloc":":nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input",
+        "empNameloc":".oxd-autocomplete-text-input > input",
+        "empStatusloc":":nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input",
+        "empUserNameloc":":nth-child(4) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "empPasswordloc":".user-password-cell > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "empConfirmPasswordloc":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "empSubmit":"#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.oxd-form-actions > button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space",
+        "sysUserloc" : ":nth-child(2) > .oxd-input",
+        "searchUserloc":".oxd-form-actions > .oxd-button--secondary",
+        "empStatusloc1":"#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.oxd-form-row > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div.oxd-select-text-input",
+        "editUserloc" :".oxd-table-cell-actions > :nth-child(2)",
+        "editUserNameloc" :"#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.oxd-form-row > div > div:nth-child(4) > div > div:nth-child(2) > input",
+        "savechanges": "#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div > form > div.oxd-form-actions > button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space",
+        "sysUserloc1" : "#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.oxd-table-filter > div.oxd-table-filter-area > form > div.oxd-form-row > div > div:nth-child(1) > div > div:nth-child(2) > input",
+        "searchUserloc1" :"#app > div.oxd-layout > div.oxd-layout-container > div.oxd-layout-context > div > div.oxd-table-filter > div.oxd-table-filter-area > form > div.oxd-form-actions > button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space",
+        "DeleteUser1" : ".oxd-table-cell-actions > :nth-child(1) > .oxd-icon",
+        "DeleteUser2" : "#app > div.oxd-overlay.oxd-overlay--flex.oxd-overlay--flex-centered > div > div > div > div.orangehrm-modal-footer > button.oxd-button.oxd-button--medium.oxd-button--label-danger.orangehrm-button-margin",
+        "PIM_Module" : "#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(2)",
+        "Pim_emp_add": ".orangehrm-header-container > .oxd-button",
+        "firstnameloc": ".--name-grouped-field > :nth-child(1) > :nth-child(2) > .oxd-input",
+        "middlenameloc": ":nth-child(2) > :nth-child(2) > .oxd-input",
+        "lastnameloc" : ":nth-child(3) > :nth-child(2) > .oxd-input",
+        "loginDetails" :".oxd-switch-input",
+        "username_pim_loc" :":nth-child(4) > .oxd-grid-2 > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "password_pim_loc": ".user-password-cell > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "confirmpassword_pim_loc" :".oxd-grid-2 > :nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "save_pim": ".oxd-button--secondary",
+        "employee_name" : ":nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-autocomplete-wrapper > .oxd-autocomplete-text-input > input",        
+        "search_pim" : "cy.get('.oxd-form-actions > .oxd-button--secondary"
+    
+    }
+}
